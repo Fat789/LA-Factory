@@ -1,4 +1,4 @@
-package sopra.promo404.hopital.model;
+package sopra.promo404.origami.model;
 
 public enum Convention {
 

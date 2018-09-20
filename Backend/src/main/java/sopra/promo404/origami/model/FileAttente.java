@@ -1,4 +1,4 @@
-package sopra.promo404.hopital.model;
+package sopra.promo404.origami.model;
 
 import java.util.List;
 
@@ -13,8 +13,9 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Version;
 
-import sopra.promo404.hopital.model.Views;
 import com.fasterxml.jackson.annotation.JsonView;
+
+import sopra.promo404.origami.model.Views;
 
 @Entity
 @Table(name="FileAttente")

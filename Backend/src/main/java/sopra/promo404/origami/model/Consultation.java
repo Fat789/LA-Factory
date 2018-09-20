@@ -1,4 +1,4 @@
-package sopra.promo404.hopital.model;
+package sopra.promo404.origami.model;
 
 import java.util.Date;
 
@@ -14,7 +14,7 @@ import javax.persistence.Version;
 
 import com.fasterxml.jackson.annotation.JsonView;
 
-import sopra.promo404.hopital.model.Views;
+import sopra.promo404.origami.model.Views;
 
 @Entity
 public class Consultation {

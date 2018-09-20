@@ -1,4 +1,4 @@
-package sopra.promo404.hopital.controller;
+package sopra.promo404.origami.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.fasterxml.jackson.annotation.JsonView;
 
-import sopra.promo404.hopital.model.FileAttente;
-import sopra.promo404.hopital.model.Views;
-import sopra.promo404.hopital.repository.IRepoFileAttente;
+import sopra.promo404.origami.model.FileAttente;
+import sopra.promo404.origami.model.Views;
+import sopra.promo404.origami.repository.IRepoFileAttente;
 
 
 
