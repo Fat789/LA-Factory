@@ -42,9 +42,7 @@ public class Etape {
 	private Origami origami;
 	
 	
-	
-	
-	
+		
 	public Etape() {
 		super();
 	}

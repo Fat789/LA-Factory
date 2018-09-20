@@ -6,10 +6,10 @@ public class Views {
 	public static class ViewCommon {
 	}
 
-	public static class ViewMedecin extends ViewCommon {
+	public static class ViewEtape extends ViewCommon {
 	}
 	
-	public static class ViewMedecinWithSpecialite extends ViewMedecin {
+	public static class ViewEtapeWithOrigami extends ViewEtape {
 	}
 	
 //
