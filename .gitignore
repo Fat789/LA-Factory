@@ -14,3 +14,10 @@ Backend/\.settings/
 *.properties
 
 Backend/bin/\.settings/
+
+target/
+build/
+.settings/
+.project
+.springBeans
+.classpath
