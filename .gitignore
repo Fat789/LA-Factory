@@ -1,2 +1,6 @@
 
 *.class
+
+Backend/\.classpath
+
+Backend/target/classes/META-INF/maven/sopra\.promo404/LA-Factory/pom\.properties

@@ -1,11 +1,11 @@
 package sopra.promo404.origami.model;
 
-public enum Civilite {
-	DR("Docteur"),M("Monsieur"), MME("Madame"), MLLE("Mademoiselle");
+public enum Niveau {
+	facile("FACILE"), moyen("MOYEN"), difficile("DIFFICILE"), impossible("IMPOSSIBLE");
 
 	private final String label;
 
-	private Civilite(String label) {
+	private Niveau(String label) {
 		this.label = label;
 	}
 
