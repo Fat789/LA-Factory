@@ -18,22 +18,22 @@ import com.fasterxml.jackson.annotation.JsonView;
 import sopra.promo404.origami.model.Views;
 
 @Entity
-@Table(name = "Etape")
+@Table(name = "etape")
 public class Etape {
 
 	@Id
 	@GeneratedValue
-	@Column(name = "Etape_id")
+	@Column(name = "etape_id")
 	@JsonView(Views.ViewCommon.class)
 	private Long id;
 	@Version
-	@Column(name = "Numero_etape")
+	@Column(name = "numero_etape")
 	@JsonView(Views.ViewCommon.class)
 	private int numeroEtape;
-	@Column(name = "Description")
+	@Column(name = "description")
 	@JsonView(Views.ViewCommon.class)
 	private String description;
-	@Column(name = "Image_etape")
+	@Column(name = "image_etape")
 	@JsonView(Views.ViewCommon.class)
 	private String imageEtape;
 	@Column(name = "origami")
