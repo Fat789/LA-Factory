@@ -4,3 +4,11 @@
 Backend/\.classpath
 
 Backend/target/classes/META-INF/maven/sopra\.promo404/LA-Factory/pom\.properties
+
+Backend/bin/\.project
+
+*.prefs
+
+Backend/\.settings/
+
+*.properties
