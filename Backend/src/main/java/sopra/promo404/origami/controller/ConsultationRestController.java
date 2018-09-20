@@ -58,6 +58,7 @@ public class ConsultationRestController {
 		consultationRepo.save(consultation);
 
 		return (Consultation) consultationRepo.findById(id).get();
+		cdscz
 	}
 
 	
