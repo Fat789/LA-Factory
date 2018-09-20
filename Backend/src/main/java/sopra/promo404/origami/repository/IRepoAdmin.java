@@ -8,6 +8,6 @@ import org.springframework.data.jpa.repository.Query;
 import sopra.promo404.origami.model.Admin;
 
 public interface IRepoAdmin extends JpaRepository<Admin, Long>{
-	@Query("select a from Medecin m left outer join fetch m.salle")
-	List<Medecin> findAllMedecin();
+	@Query("select a from Admin a where a.id= :id")
+	List<Admin> findAllAdmin();
 }

@@ -12,3 +12,5 @@ Backend/bin/\.project
 Backend/\.settings/
 
 *.properties
+
+Backend/bin/\.settings/
