@@ -145,22 +145,22 @@ public class Origami {
 	}
 
 
-	public Array<Etape> getEtapes() {
+	public List<Etape> getEtapes() {
 		return etapes;
 	}
 
 
-	public void setEtapes(Array<Etape> etapes) {
+	public void setEtapes(List<Etape> etapes) {
 		this.etapes = etapes;
 	}
 
 
-	public Array<Categorie> getCategories() {
+	public List<Categorie> getCategories() {
 		return categories;
 	}
 
 
-	public void setCategories(Array<Categorie> categories) {
+	public void setCategories(List<Categorie> categories) {
 		this.categories = categories;
 	}
 
