@@ -1,6 +1,5 @@
 package sopra.promo404.origami.model;
 
-import java.util.Date;
 import java.util.List;
 
 import javax.persistence.Column;
@@ -9,14 +8,10 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
-import javax.persistence.Version;
-
 import com.fasterxml.jackson.annotation.JsonView;
 @Entity
 @Table(name = "origami")
@@ -42,11 +37,10 @@ public class Origami {
 	private String youtube;
 	@JsonView(Views.ViewCommon.class)
 	private String imageOri;
-	@OneToMany(mappedBy="etape" , fetch=FetchType.EAGER)
-	@JoinColumn(name="etape_id")
+	@OneToMany(mappedBy="origami" , fetch=FetchType.EAGER)
 	private List<Etape> etapes;
 	@ManyToMany(fetch=FetchType.EAGER)
-	@JoinColumn(name="categorie_id")
+	@JoinTable(name="categorie_origami")
 	private List<Categorie> categories;
 
 	
